@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory;
+package com.esprit.interactivestory;
 
 import org.junit.Test;
 

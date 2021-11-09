@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory;
+package com.esprit.interactivestory;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory.ui;
+package com.esprit.interactivestory.ui;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.teamtreehouse.interactivestory.R;
+import com.esprit.interactivestory.R;
 
 public class MainActivity extends AppCompatActivity {
 

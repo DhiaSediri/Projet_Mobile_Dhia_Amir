@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory;
+package com.esprit.interactivestory;
 
 import android.app.Activity;
 import android.app.Application;

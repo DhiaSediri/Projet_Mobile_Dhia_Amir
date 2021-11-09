@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory.ui;
+package com.esprit.interactivestory.ui;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -11,9 +11,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.teamtreehouse.interactivestory.R;
-import com.teamtreehouse.interactivestory.model.Page;
-import com.teamtreehouse.interactivestory.model.Story;
+import com.esprit.interactivestory.R;
+import com.esprit.interactivestory.model.Page;
+import com.esprit.interactivestory.model.Story;
 
 import java.util.Stack;
 

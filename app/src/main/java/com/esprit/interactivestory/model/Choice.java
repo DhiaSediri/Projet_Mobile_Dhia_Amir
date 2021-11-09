@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory.model;
+package com.esprit.interactivestory.model;
 
 public class Choice {
     private int textId;

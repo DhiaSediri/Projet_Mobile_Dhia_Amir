@@ -1,6 +1,6 @@
-package com.teamtreehouse.interactivestory.model;
+package com.esprit.interactivestory.model;
 
-import com.teamtreehouse.interactivestory.R;
+import com.esprit.interactivestory.R;
 
 public class Story {
 
