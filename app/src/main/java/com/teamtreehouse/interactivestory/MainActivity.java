@@ -1,18 +1,12 @@
 package com.teamtreehouse.interactivestory;
 
-<<<<<<< HEAD
 import android.content.Intent;
-=======
->>>>>>> 878f194c63b2287aa1ad191b207581b94ee56a82
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-<<<<<<< HEAD
-=======
-import android.widget.Toast;
->>>>>>> 878f194c63b2287aa1ad191b207581b94ee56a82
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name = nameField.getText().toString();
-<<<<<<< HEAD
                 startStory(name);
             }
         });
@@ -39,13 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void startStory(String name) {
         Intent intent = new Intent(this, StoryActivity.class);
-        intent.putExtra("name", name);
+        Resources resources = getResources();
+        String key = resources.getString(R.string.key_name);
+        intent.putExtra(key, name);
         startActivity(intent);
-=======
-                Toast.makeText(MainActivity.this, name, Toast.LENGTH_LONG).show();
-            }
-        });
->>>>>>> 878f194c63b2287aa1ad191b207581b94ee56a82
     }
 }
 
